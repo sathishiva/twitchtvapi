@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>::Twich TV Search Stream App::</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>TWITCH.TV SEARCH STREAM</h1>
+            <div class="search-container">
+                <!-- <form action="javascript:void(0)"> -->
+                    <input type="text" placeholder="Enter Stream to Search.." name="search" id="searchStreamInput">
+                    <button id="searchStreamBtn" type="submit">Search</button>
+                <!-- </form> -->
+            </div>
+        </header>
+        <div class="top-container">
+            <div class="total-count"></div>
+            <div class="search-for"></div>
+            <div class="pagination"></div>
+        </div>
+        <main>
+            <ul class="result-container" id="streamList"></ul>
+        </main>
+    </div>
+    <script src="search_stream.js"></script>
+</body>
+
+</html>
